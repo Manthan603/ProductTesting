@@ -42,14 +42,14 @@ public class ProductService
 		productEntity.setId(2);
 		productEntity.setName("Fan");
 		productEntity.setPrice(123.123);
-		setDeafultValues1(productEntity);
+		setDeafultProductValues(productEntity);
 	}
 	
-	public void setDeafultValues1(ProductEntity productEntity)
+	public void setDeafultProductValues(ProductEntity productEntity)
 	{
 		productEntity.setId(2);
 		productEntity.setName("Fan");
 		productEntity.setPrice(123.123);
-		setDeafultValues1(productEntity);
+		//setDeafultValues1(productEntity);
 	}
 }
